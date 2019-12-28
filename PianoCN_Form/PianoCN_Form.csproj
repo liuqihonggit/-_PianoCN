@@ -74,12 +74,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PianoCN\PianoCN.csproj">
-      <Project>{82883b8d-0c5f-4cda-9706-160adaee5539}</Project>
-      <Name>PiaNO</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="Shell32">
       <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -89,6 +83,12 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PianoCN\PianoCN.csproj">
+      <Project>{82883b8d-0c5f-4cda-9706-160adaee5539}</Project>
+      <Name>PianoCN</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
