@@ -1,4 +1,4 @@
-#### PianoCN
+PianoCN
 用于打开和修改 AutoDesk® plot files (.pc3, .pmp, .stb, .ctb). 的参考库
 
 PIA文件是原作者针对(.pc3, .pmp, .stb, .ctb)四种文件的简写名,
@@ -7,7 +7,7 @@ PIA文件是原作者针对(.pc3, .pmp, .stb, .ctb)四种文件的简写名,
 原有git工程连接 https://github.com/phusband/PiaNO
 
 =====
-#### PianoCN_Form
+PianoCN_Form
 这里我写了一个winForm,是引用了PianoCN工程,然后调用这个工程内部的函数进行查改增删,
 详情你们可以来我的博客浏览 https://www.cnblogs.com/JJBox/p/10909297.html
 
